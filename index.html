@@ -11,29 +11,39 @@ margin:0;
 background:#f4f4f4;
 }
 
+/* HEADER BAR */
+
 header{
 background:#1e7f3f;
 color:white;
-padding:30px;
-text-align:center;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
-nav{
-background:#222;
-padding:10px;
-text-align:center;
+/* TITLE */
+
+header h1{
+margin:0;
+font-size:22px;
 }
+
+/* NAVIGATION */
 
 nav a{
 color:white;
-margin:0 15px;
+margin-left:25px;
 text-decoration:none;
 font-weight:bold;
+font-size:16px;
 }
 
 nav a:hover{
-color:#1e7f3f;
+text-decoration:underline;
 }
+
+/* CONTENT BOXES */
 
 section{
 padding:30px;
@@ -44,6 +54,25 @@ margin-top:20px;
 border-radius:8px;
 text-align:center;
 }
+
+/* SIGNUP BUTTON */
+
+button{
+background:#1e7f3f;
+color:white;
+padding:18px 30px;
+font-size:20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#166530;
+}
+
+/* FOOTER */
 
 footer{
 text-align:center;
@@ -59,15 +88,16 @@ color:white;
 <body>
 
 <header>
+
 <h1>⚽ BayLands Soccer Tournament</h1>
-<p>Fast games. Competitive teams. Palo Alto.</p>
-</header>
 
 <nav>
-<a href="index.html">Home</a>
+<a href="signup.html">Sign Up</a>
 <a href="rules.html">Rules</a>
 <a href="contact.html">Contact</a>
 </nav>
+
+</header>
 
 <section>
 
@@ -76,16 +106,7 @@ color:white;
 <div style="margin-top:30px;">
 
 <a href="signup.html">
-<button style="
-background:#1e7f3f;
-color:white;
-padding:18px 30px;
-font-size:20px;
-border:none;
-border-radius:8px;
-cursor:pointer;
-font-weight:bold;
-">
+<button>
 ⚽ Sign Up For The Tournament
 </button>
 </a>
